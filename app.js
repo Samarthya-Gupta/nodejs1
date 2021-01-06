@@ -16,7 +16,7 @@ app.get('/',(req,res)=>{
 // app.get('/help',(req,res)=>{
 //     res.send('help page')
 // })
-const port = process.env.PORT || 80
+const port = process.env.PORT || 3000
 app.listen(port,()=>{
     console.log('server is up on 3000')
 })
